@@ -1,0 +1,35 @@
+{
+  "name": "p5.computiful",
+  "version": "0.0.1",
+  "description": "A small utility library for the Computiful Editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.cjs",
+    "test": "mocha-chrome test/test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcintyrelabs/p5.computiful.git"
+  },
+  "keywords": [
+    "computiful",
+    "math",
+    "p5",
+    "p5.js",
+    "processing"
+  ],
+  "author": "Nick McIntyre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcintyrelabs/p5.computiful/issues"
+  },
+  "homepage": "https://github.com/mcintyrelabs/p5.computiful#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mocha-chrome": "^2.2.0",
+    "p5": "^1.2.0",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1"
+  }
+}
